@@ -1,0 +1,11 @@
+{
+  "dburl": "mongodb://localhost:27017/Docker",
+  "vivek-pc" : {
+    "hostname" : "199.168.199.58",
+    "port" : 5555
+  },
+  "anish-pc" : {
+    "hostname" : "199.168.188.198",
+    "port" : 4243
+  }
+}

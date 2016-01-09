@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <script src="socket.io/socket.io.js"></script>
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/canvasjs.min.js"></script>
+    <script src="js/stat.js"></script>
+
+    <link href="css/stat.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="nodeList">
+
+    </div>
+    <div>
+        <div>
+            <label id="containerId"></label>
+        </div>
+        <br />
+        <div class="graphContainers">
+            <div id="cpuChartContainer" class="graph"></div>
+            <div id="memoryChartContainer" class="graph"></div>
+        </div>
+    </div>
+</body>
+</html>
