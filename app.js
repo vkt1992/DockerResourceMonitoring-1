@@ -169,10 +169,14 @@ function monitorContainer() {
     });
 
     response.on('end', function () {
-      running_containers.Id = [];
+      running_containers = [];
 
       dataToReturn.forEach(function (element, index) {
-        running_containers.Id.push(element.Id);
+        var container = {};
+
+        container.Id = element.Id;
+
+        running_containers.push(container);
       });
 
       running_containers.forEach(function (element, index) {
