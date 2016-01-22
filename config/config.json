@@ -1,11 +1,7 @@
 {
   "dburl": "mongodb://localhost:27017/Docker",
-  "vivek-pc" : {
-    "hostname" : "199.168.199.58",
-    "port" : 5555
-  },
-  "anish-pc" : {
-    "hostname" : "199.168.188.198",
-    "port" : 4243
-  }
+  "vivek-pc-router" : "192.168.0.100:5555",
+  "vivek-pc-college" : "192.168.199.58:5555",
+  "anish-pc-router" : "192.168.0.101:4243",
+  "anish-pc-college" : "192.168.188.198:4243"
 }

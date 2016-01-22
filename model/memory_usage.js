@@ -1,8 +1,10 @@
 var mongoose = require('mongoose');
 
-var MEMORY_USAGE = mongoose.Schema({
-  Id : mongoose.Schema.Types.ObjectId,
-  memory_usage : String,
+var Schema = mongoose.Schema;
+
+var Memory_usage = new Schema({
+  container_Id : String,
+  memory_usage : Number,
 });
 
-module.exports = mongoose.model('MEMORY_USAGE', userSchema, 'MEMORY_USAGE');
+module.exports = Memory_usage;

@@ -34,12 +34,6 @@ body {
     padding : 5px;
 }
 
-.client {
-}
-
-.pc_name {
-}
-
 .ip_address_port_number {
     display: none;
     margin-top : 4px;
@@ -47,4 +41,13 @@ body {
 
 .graphContainers {
     float: left;
+}
+
+.space {
+  float: right;
+  width: 20%;
+}
+
+#error {
+  color: red;
 }

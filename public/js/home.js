@@ -1,6 +1,6 @@
 window.onload = function () {
   $.ajax({
-    url: 'http://localhost:3000/dockerData',
+    url: '/dockerData',
     type: 'get',
     dataType: 'json',
     contentType: 'application/json',

@@ -1,8 +1,10 @@
 var mongoose = require('mongoose');
 
-var CPU_USAGE = mongoose.Schema({
-  Id : mongoose.Schema.Types.ObjectId,
-  cpu_usage : String,
+var Schema = mongoose.Schema;
+
+var Cpu_usage = new Schema({
+  container_Id : String,
+  cpu_usage : Number,
 });
 
-module.exports = mongoose.model('CPU_USAGE', userSchema, 'CPU_USAGE');
+module.exports = Cpu_usage;
